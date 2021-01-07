@@ -1,0 +1,8 @@
+.cover {
+  margin: 92px 0 0;
+  width: 1184px;
+  height: 740px;
+  display: grid;
+  grid-template-columns: 312px 560px 312px;
+  grid-template-rows: 245px 152px 98px 245px;
+}

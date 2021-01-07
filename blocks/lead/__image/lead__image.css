@@ -1,0 +1,7 @@
+.lead__image {
+  width: 984px;
+  height: 615px;
+  margin: 64px 0 0;
+  background-image: url(../../../images/lead__image_compressed.jpg);
+  background-size: cover;
+}

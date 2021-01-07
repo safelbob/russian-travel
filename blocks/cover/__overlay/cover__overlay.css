@@ -1,0 +1,14 @@
+.cover__overlay {
+  z-index: 2;
+  margin: 0;
+  grid-row: 1/5;
+  grid-column: 1/4;
+  width: 1184px;
+  height: 740px;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+}
+
+#cover:hover .cover__overlay {
+  opacity: 0.8;
+}
