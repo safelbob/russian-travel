@@ -1,3 +1,29 @@
 .lead__image2 {
   margin: 90.21px auto 261.8px;
+  width: 937.09px;
+  height: 262.99px;
+}
+
+@media (max-width:1279px) {
+  .lead__image2 {
+    margin: 85.07px auto 246.9px;
+    width: 883.76px;
+    height: 248.02px;
+  }
+}
+
+@media (max-width:1023px) {
+  .lead__image2 {
+    margin: 70.41px auto 204.33px;
+    width: 731.38px;
+    height: 205.26px;
+  }
+}
+
+@media (max-width:767px) {
+  .lead__image2 {
+    margin: 29.34px auto 85.14px;
+    width: 304.74px;
+    height: 85.53px;
+  }
 }

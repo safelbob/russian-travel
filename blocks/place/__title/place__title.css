@@ -1,10 +1,37 @@
-.place__title{
+.place__title {
   margin: 0;
   font-family: inter;
   font-weight: 900;
   font-style: normal;
   font-size: 72px;
   line-height: 76px;
+  letter-spacing: 0em;
+  text-align: left;
   color: white;
   width: 460px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+@media (max-width:1279px) {
+  .place__title {}
+}
+
+@media (max-width:1023px) {
+  .place__title {
+    width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width:767px) {
+  .place__title {
+    margin: 0 16px 0;
+    width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    grid-column: 1;
+    grid-row: 1;
+  }
 }

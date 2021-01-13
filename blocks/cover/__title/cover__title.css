@@ -8,6 +8,22 @@
   font-style: normal;
   font-size: 72px;
   line-height: 76px;
+  letter-spacing: 0em;
   text-align: center;
   color: white;
+}
+
+@media (max-width:1279px) {
+  .cover__title {}
+}
+
+@media (max-width:1023px) {
+  .cover__title {}
+}
+
+@media (max-width:767px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

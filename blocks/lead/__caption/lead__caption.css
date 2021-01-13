@@ -11,3 +11,19 @@
   color: white;
   align-self: flex-start;
 }
+
+@media (max-width:1279px) {
+  .lead__caption {}
+}
+
+@media (max-width:1023px) {
+  .lead__caption {
+    margin: 8px 0 0 24px;
+  }
+}
+
+@media (max-width:767px) {
+  .lead__caption {
+    margin: 8px 0 0 16px;
+  }
+}

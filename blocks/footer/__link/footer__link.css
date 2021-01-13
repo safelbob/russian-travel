@@ -17,8 +17,24 @@
 
 .footer__link:last-of-type {
   padding-right: 0px;
+  margin: 0;
 }
 
 .footer__link:hover {
   opacity: 0.8;
+}
+
+@media (max-width:1279px) {
+  .footer__link {}
+}
+
+@media (max-width:1023px) {
+  .footer__link {}
+}
+
+@media (max-width:767px) {
+  .footer__link {
+    padding-right: 0;
+    margin-bottom: 32px;
+  }
 }
