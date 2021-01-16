@@ -1,6 +1,6 @@
 .lead__title {
   margin: 0 auto 0;
-  font-family: inter;
+  font-family: 'Inter', Arial, sans-serif;
   font-weight: 900;
   font-style: normal;
   font-size: 96px;
@@ -9,14 +9,6 @@
   color: white;
   letter-spacing: 0em;
   max-width: 720px;
-}
-
-@media (max-width:1279px) {
-  .lead__title {}
-}
-
-@media (max-width:1023px) {
-  .lead__title {}
 }
 
 @media (max-width:767px) {

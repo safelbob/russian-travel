@@ -1,17 +1,8 @@
 .header__logo {
   height: 100%;
   width: 176px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-@media (max-width:1279px) {
-  .header__logo {}
-}
-
-@media (max-width:1023px) {
-  .header__logo {}
+  grid-row: 1;
+  grid-column: 1;
 }
 
 @media (max-width:767px) {

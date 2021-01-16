@@ -2,12 +2,11 @@
   margin: 28px auto 56px;
   max-width: 1184px;
   min-width: 288px;
-  height: 52px;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
+  min-height: 52px;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 1fr 28px 28px;
+  column-gap: 18px;
 }
 
 @media (max-width:1279px) {
@@ -24,7 +23,8 @@
 
 @media (max-width:767px) {
   .header {
+    grid-template-columns: 1fr 22px 22px;
     margin: 16px 16px 48px;
-    height: 42px;
+    min-height: 42px;
   }
 }

@@ -1,0 +1,18 @@
+.footer__links-element {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  padding-right: 18px;
+}
+
+.footer__links-element:last-of-type {
+  padding-right: 0px;
+}
+
+@media (max-width:767px) {
+  .footer__links-element {
+    padding-right: 0;
+    margin-bottom: 32px;
+  }
+}

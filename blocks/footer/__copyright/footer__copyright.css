@@ -1,6 +1,6 @@
 .footer__copyright {
   margin: 0;
-  font-family: Inter;
+  font-family: 'Inter', Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -12,18 +12,11 @@
   justify-self: flex-end;
 }
 
-@media (max-width:1279px) {
-  .footer__copyright {}
-}
-
-@media (max-width:1023px) {
-  .footer__copyright {}
-}
-
 @media (max-width:767px) {
   .footer__copyright {
     align-self: flex-start;
     justify-self: flex-start;
     margin-top: 48px;
+    line-height: 14px;
   }
 }

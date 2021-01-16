@@ -1,7 +1,7 @@
 .intro__title {
   margin: 0;
   width: 100%;
-  font-family: inter;
+  font-family: 'Inter', Arial, sans-serif;
   font-weight: 900;
   font-style: normal;
   font-size: 54px;
@@ -9,14 +9,6 @@
   letter-spacing: 0em;
   text-align: left;
   color: white;
-}
-
-@media (max-width:1279px) {
-  .intro__title {}
-}
-
-@media (max-width:1023px) {
-  .intro__title {}
 }
 
 @media (max-width:767px) {
