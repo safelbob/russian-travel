@@ -3,10 +3,8 @@
   max-width: 1184px;
   min-width: 288px;
   min-height: 52px;
-  display: grid;
-  grid-template-rows: 100%;
-  grid-template-columns: 1fr 28px 28px;
-  column-gap: 18px;
+  display: flex;
+  justify-content: space-around;
 }
 
 @media (max-width:1279px) {
